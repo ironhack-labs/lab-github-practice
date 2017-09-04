@@ -1,10 +1,14 @@
 body {
-  margin: 0 200px;
+  border: 200px solid #0e0e0e;
+  border-top: 0;
+  border-bottom: 0;
+  /*margin: 0 200px;*/
 }
 html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
 }
+
 .header {
   background: url("/home/valentin/code/lab-github-practice/lab-css-recipes-clone-master/starter-code/apple-pie-starter-code/images/apple-pie.jpg");
   background-size: cover;
@@ -31,16 +35,27 @@ text-align: center;
   margin-left: 300px;
 }
 
-.container-ingredients {
-  margin: 50px 0;
+.container {
+  margin: 50px;
 }
 
-.li {list-style-type: none;}
-li:before {
+
+
+.ul-li {list-style-type: none;}
+li::before {
   content: "- ";
 }
 
 .logo-prep {
   height: 80px;
   margin-left: 300px;
+}
+
+
+ol li::before {
+  content: ")";
+}
+
+footer {
+  margin: 50px 50px 0 50px;
 }
