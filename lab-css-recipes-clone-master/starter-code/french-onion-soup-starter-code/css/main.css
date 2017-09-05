@@ -1,0 +1,55 @@
+h1, body, html, main {
+  margin: 0;
+}
+
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px
+}
+
+.body-border {
+  border: 200px solid #0e0e0e;
+  border-top: 0;
+  border-bottom: 0;
+}
+
+.header {
+  background: url("/home/valentin/code/lab-github-practice/lab-css-recipes-clone-master/starter-code/french-onion-soup-starter-code/images/soup.jpg");
+  background-size: cover;
+  height: 600px;
+  width: 100%;
+}
+
+.header h1 {
+  color: white;
+  font-size: 50px;
+  position: absolute;
+  top: 250px;
+  right: 400px;
+}
+
+.container-origin-recipe {
+  background-color: white;
+margin: 100px 50px 50px 50px;
+text-align: center;
+}
+
+.container-origin-recipe img {
+  height: 50px;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+ul li {list-style-type: none;}
+li::before {
+  content: "- ";
+}
+
+.cooking-info {
+  margin: 50px 0;
+  text-align: center;
+}
+
+ol li::before {
+  content: ") ";
+}
