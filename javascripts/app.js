@@ -2,7 +2,7 @@ var rover = {
   direction: "N",
   x: 0,
   y: 0,
-  travelLog: []
+  travelLog: ['0, 0']
 }
 
 function chooseDirection () {
@@ -10,7 +10,7 @@ function chooseDirection () {
 
   while (command.toUpperCase() !== 'END') {
     command = prompt('Enter the direction you would like the ship to go (f, r, or l). Type end to finish the game');
-    
+  
     if (command.toUpperCase() === 'F') {
       if (rover.y <= 0 && rover.direction === 'N' || rover.y >= 9 && rover.direction === 'S' || rover.x <= 0 && rover.direction === 'W' || rover.x >= 9 && rover.direction === 'E')  {
         console.log("You must stay in the within the board (Coordinates cannot be less than 0 or more than 9). Try again.");
@@ -69,12 +69,10 @@ function moveForward(rover){
   switch (rover.direction) {
     case "N": 
       rover.y -= 1;
-      // rover.travelLog = travelLog.push(rover.y + ', ' + rover.x);
       console.log(rover.y);
       break;
     case "S": 
       rover.y += 1;
-      // rover.travelLog = travelLog.push(rover.y + ', ' + rover.x);
       console.log(rover.y);
       break;
   }
@@ -83,16 +81,20 @@ function moveForward(rover){
     case "E":
       rover.x += 1;
       console.log(rover.x);
-      // rover.travelLog = travelLog.push(rover.y + ', ' + rover.x);
       break;
     case "W":
       rover.x -= 1;
       console.log(rover.x);
-      // rover.travelLog = travelLog.push(rover.y + ', ' + rover.x);
       break;
   }
 
-  console.log("moveForward was called") //test
+  var xToString = rover.x.toString();
+  var yToString = rover.y.toString();
+  var combingStrings = xToString + ', ' + yToString; 
+
+  rover.travelLog.push(combingStrings);
+
+  console.log("Current Position: ", rover.travelLog[i]);
 }
 
 chooseDirection();
