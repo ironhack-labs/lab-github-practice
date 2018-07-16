@@ -94,7 +94,8 @@ function moveForward(rover){
 
   rover.travelLog.push(combingStrings);
 
-  console.log("Current Position: ", rover.travelLog[i]);
+
+  console.log("Current Position: ", rover.travelLog[rover.travelLog.length - 1]);
 }
 
 chooseDirection();
