@@ -1,7 +1,8 @@
 var rover = {
   direction: "N",
   x: 0,
-  y: 0
+  y: 0,
+  travelLog: []
 }
 
 function chooseDirection () {
@@ -11,10 +12,7 @@ function chooseDirection () {
     command = prompt('Enter the direction you would like the ship to go (f, r, or l). Type end to finish the game');
     
     if (command.toUpperCase() === 'F') {
-      if (rover.y <= 0 && rover.direction === 'N' || rover.y <= 0 && rover.direction === 'E') {
-        console.log("You must stay in the within the board (Coordinates cannot be less than 0 or more than 9). Try again.");
-      }
-      else if (rover.y >= 9 && rover.direction === 'S') {
+      if (rover.y <= 0 && rover.direction === 'N' || rover.y >= 9 && rover.direction === 'S' || rover.x <= 0 && rover.direction === 'W' || rover.x >= 9 && rover.direction === 'E')  {
         console.log("You must stay in the within the board (Coordinates cannot be less than 0 or more than 9). Try again.");
       }
       else moveForward(rover);
@@ -70,13 +68,13 @@ function moveForward(rover){
   
   switch (rover.direction) {
     case "N": 
-      // if (rover.y < 0 || rover.y > 9) console.log("You must stay in the within the board (Coordinates cannot be less than 0 or more than 9)");
-      // else rover.y -= 1;
       rover.y -= 1;
+      // rover.travelLog = travelLog.push(rover.y + ', ' + rover.x);
       console.log(rover.y);
       break;
     case "S": 
       rover.y += 1;
+      // rover.travelLog = travelLog.push(rover.y + ', ' + rover.x);
       console.log(rover.y);
       break;
   }
@@ -84,16 +82,17 @@ function moveForward(rover){
   switch (rover.direction) {
     case "E":
       rover.x += 1;
+      console.log(rover.x);
+      // rover.travelLog = travelLog.push(rover.y + ', ' + rover.x);
       break;
     case "W":
       rover.x -= 1;
+      console.log(rover.x);
+      // rover.travelLog = travelLog.push(rover.y + ', ' + rover.x);
       break;
   }
 
   console.log("moveForward was called") //test
 }
 
-// turnLeft(rover);
-// turnRight(rover);
-// moveForward(rover);
 chooseDirection();
