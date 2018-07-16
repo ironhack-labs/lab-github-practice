@@ -9,7 +9,17 @@ function chooseDirection () {
 
   while (command.toUpperCase() !== 'END') {
     command = prompt('Enter the direction you would like the ship to go (f, r, or l). Type end to finish the game');
-    if (command.toUpperCase() === 'F') moveForward(rover);
+    
+    if (command.toUpperCase() === 'F') {
+      if (rover.y <= 0 && rover.direction === 'N' || rover.y <= 0 && rover.direction === 'E') {
+        console.log("You must stay in the within the board (Coordinates cannot be less than 0 or more than 9). Try again.");
+      }
+      else if (rover.y >= 9 && rover.direction === 'S') {
+        console.log("You must stay in the within the board (Coordinates cannot be less than 0 or more than 9). Try again.");
+      }
+      else moveForward(rover);
+    }
+
     else if (command.toUpperCase() === 'R') turnRight(rover);
     else if (command.toUpperCase() === 'L') turnLeft(rover);
   }
