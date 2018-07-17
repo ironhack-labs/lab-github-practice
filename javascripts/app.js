@@ -5,19 +5,23 @@ var rover = {
   travelLog: ['0, 0']
 }
 
+// var currentPosition = rover.travelLog[rover.travelLog.length - 1];
+
 var grid = [
+  ['', 'o', 'o', '', '', 'o', '', '', '', ''],
+  ['', '', '', 'o', '', '', '', '', '', ''],
+  ['', '', 'o', '', '', '', '', '', '', ''],
   ['', '', '', '', '', '', '', '', '', ''],
   ['', '', '', '', '', '', '', '', '', ''],
-  ['', '', '', '', '', '', '', '', '', ''],
-  ['', '', '', '', '', '', '', '', '', ''],
-  ['', '', '', '', '', '', '', '', '', ''],
-  ['', '', '', '', '', '', '', '', '', ''],
-  ['', '', '', '', '', '', '', '', '', ''],
-  ['', '', '', '', '', '', '', '', '', ''],
+  ['', '', '', '', 'o', '', '', '', '', ''],
+  ['', '', 'o', '', '', '', '', '', '', ''],
+  ['', '', '', '', '', '', '', 'o', '', ''],
   ['', '', '', '', '', '', '', '', '', '']
 ];
 
 console.log('Rover Direction: ' + rover.direction); //for starting position
+
+// console.log(grid[rover.x][rover.y]); //prints 0,0 on thr grid
 
 function chooseDirection() {
   var command = '';
@@ -105,8 +109,15 @@ function moveForward(rover){
   var yToString = rover.y.toString();
   var combingStrings = xToString + ', ' + yToString; 
 
+  if (grid[rover.y][rover.x] !== '') {
+    console.log('you hit an obstacle');
+  }
+
   rover.travelLog.push(combingStrings);
   console.log("Current Position: ", rover.travelLog[rover.travelLog.length - 1]);
+
+  
+
 }
 
 function moveBackwards(rover) {
@@ -134,7 +145,10 @@ function moveBackwards(rover) {
 
   rover.travelLog.push(combingStrings);
   console.log("Current Position: ", rover.travelLog[rover.travelLog.length - 1]);
+}
 
+function obstacles() {
+  
 }
 
 chooseDirection();
