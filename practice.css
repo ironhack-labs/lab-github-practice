@@ -1,0 +1,19 @@
+body {
+    background-color: #00D1AE;
+}
+
+.menu {
+    width: 400px;
+    height: 50px;
+    background-color: #00D1AE
+}
+
+.content {
+    width: 400px;
+    height: 200px;
+    background-color: red;
+}
+
+.box {
+    width: 400px;
+}
