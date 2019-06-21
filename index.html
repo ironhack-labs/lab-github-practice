@@ -1,36 +1,118 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Portfolio Page</title>
-</head>
+<html lang="es">
+  <head>
+    <title>Practica</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+    <link href="css/estilos.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  </head>
 <body>
-  <nav>
-    <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Contact</a></li>
-    </ul>
-  </nav>
+   <nav>
+		<div class="top-left">
+		  <a href="#" class="heart link">♥︎</a>
+		  <span class="acronym">Neophobe Plebeian Mumpsimus</span>
+		</div>
+		<ul class="top-links">
+		  <li><a href="https://www.npm-enterprise.com/" class="link">npm Enterprise</a></li>
+		  <li><a href="https://www.npmjs.com/features" class="link">features</a></li>
+		  <li><a href="https://www.npmjs.com/pricing" class="link">pricing</a></li>
+		  <li><a href="https://docs.npmjs.com/" class="link">documentation</a></li>
+		  <li><a href="https://www.npmjs.com/support" class="link">support</a></li>
+		</ul>
+	</nav>
+  
+	<header>
+		<div id="npm-searchbar">
+		  <img src="images/npm-logo.png" alt="" id="npm-logo">
+		  <input type="text" id="find-packages">
+		  <img src="images/magnifying-glass.PNG" alt="" id="magnifying-glass">
+		  <span id="signup">
+			<a href="#" class="link">sign up</a>
+			  <span>or</span>
+			<a href="#" class="link">log in</a>
+			<img src="images/bear-logo.png" alt="" id="bear-logo">
+		  </span>
 
-  <h1>Welcome To RebecaLS's Page</h1>
-
-  <section>
-    <h2>Things I Like</h2>
-    <ul>
-      <li>Animals</li>
-      <li>Travel</li>
-      <li>Nature</li>
-    </ul>
+		</div>
+		<div class="section-container-1">
+      
+		  <h1>Build amazing things</h1>
+		  <p>npm is the package manager for JavaScript and the worlds's largest software registry. 
+			Discover packages of reusable code - and assemble them in powerful new ways.
+		  </p>
+      <a href="#" class="btn signup-npm">Sign up for npm </a>
+      
+		</div>
+	</header>
+	 <section class="first-signup">
+    <div class="first">
+      <img src="images/collaboration.svg" alt="" id="collaboration">
+      <div id="collaboration-content">
+        <h1>npm Orgs is powerful collaboration - for free</h1>
+        <ul>
+          <li>Encourage code discovery and re-use within teams</li>
+          <li>Publish and control access to your own namespace</li>
+          <li>Manage public and private code with the same workflow</li>
+        </ul>
+        <a href="#" class="btn signup-orgs">Sign up for Orgs</a>
+        <p>or, <a href="#" class="link collaboration-link">Learn more about Orgs</a></p>
+      </div>
+    </div>
   </section>
-
-  <section>
-    <h2>Things I Don't Like</h2>
-    <ul>
-      <li>Lies</li>
-      <li>Animal abuse</li>
-      <li>Tobacco</li>
-    </ul>
+  <section class="second-install">
+    <div class="second section-container">
+      <h1>What is npm?</h1>
+      <p>Use npm to install share, and distribute code; 
+        manage dependancies in your projects; and share & receive feedback with others.
+      </p>
+      <a href="#" class="btn install-npm">Install npm</a>
+    </div>
+  </section> 
+  <section class="third-blocks">
+    <div class="third section-container">
+      <h1>What can you make with 475,000 building blocks?</h1>
+      <p>The npm registry hosts almost half a million of free, reusable code - 
+        the largest registry in the world.
+      </p>
+    </div>
+    <div class="cards-container">
+      <div class="card">
+        <img src="images/binoculars.svg" alt="" class="card-image">
+        <h3 class="card-header">Find</h3>
+        <div class="card-body">Libraries like
+        <a href="#" class="card-link">jQuery</a>
+        ,
+        <a href="#" class="card-link">Bootstrap</a>
+        ,
+        <a href="#" class="card-link">React</a>
+        , and
+        <a href="#" class="card-link">Angular</a>
+        , and components from frameworks such as
+        <a href="#" class="card-link">Ember</a>
+      </div>
+      </div>
+      <div class="card">
+        <img src="images/mountain-flag.svg" alt="" class="card-image">
+        <h3 class="card-header">Discover</h3>
+        <div class="card-body">
+          Packages for mibile, IoT, front end, back end, robotics...
+          everything you need to start building amazing things.
+        </div>
+      </div>
+      <div class="card">
+        <img src="images/backpack.svg" alt="" class="card-image">
+        <h3 class="card-header">Build</h3>
+        <div class="card-body">
+          Assemble packages like building blicks to quickly 
+          develop awesome new projects.
+        </div>
+      </div>
+    </div>
   </section>
+  
 </body>
 </html>

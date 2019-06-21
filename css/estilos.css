@@ -1,0 +1,208 @@
+* { 
+  margin: 0; padding: 0; 
+}
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding: 10px 0 10px 0;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a {
+  text-decoration: none;
+  color: rgba(255,255,255,0.8);
+
+}
+.top-left {
+  margin: 0 0 0 8px;
+}
+
+.top-links {
+  display: inline-block;
+  padding: 0;
+  margin: 0 20px 0 0;
+}
+.link {
+  text-decoration: none;
+  color: rgba(255,255,255,0.8);
+}
+.link:hover{
+  color:rgb(157, 164, 169);
+}
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+.acronym {
+  margin: 0 0 0 8px;
+}
+
+.btn {
+  color: white;
+  text-decoration: none;
+  border-radius: 1rem;
+  display: inline-block;
+  text-align: center;
+  padding: .375rem .75rem;
+  margin: 1rem 0;
+
+}
+.signup-npm {
+  background-color: rgb(240, 146, 51);
+  border: 2px solid rgb(240, 146, 51);
+}
+
+.signup-npm:hover {
+  background-color: rgb(216, 131, 46);
+  border-color: rgb(216, 131, 46);
+}
+
+header {
+  overflow: hidden;
+  background-image: url(../images/city-scape.svg);
+  background-size: cover;
+  height: 380px;
+  background-color: rgb(32, 101, 136);
+  padding: 0.5em 0.5em 0 0.5em;
+  color:#fff;
+}
+
+#npm-searchbar {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+
+}
+#npm-searchbar img {
+  height: 40px;
+  width: auto;
+}
+#npm-logo {
+  padding-top: 4px;
+  margin-left: 1rem;
+}
+#magnifying-glass {
+  height: 46px !important;
+}
+input[type="text"] {
+  background-color: #1F526F;
+  border: 2px solid rgb(64, 108, 132);
+  flex-grow: 4;
+  color: white;
+  margin-left: 10px;
+
+}
+#signup {
+  color: rgba(255,255,255,0.8);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 3px;
+}
+#signup span {
+  padding: 0 3px;
+}
+.first-signup {
+  background-color: #273547;
+  color: white;
+  min-height: 370px;
+  height: auto;
+}
+
+.section-container-1 {
+  width: 620px;
+  margin: 0 auto;
+  padding-top: 2rem;
+  background-image: url("images/city-scape.svg");
+}
+.first {
+  display: flex;
+  justify-content: center;
+}
+#collaboration {
+  height: 250px;
+  margin: 1rem;
+}
+#collaboration-content {
+  max-width: 300px;
+  float: right;
+  margin: 1rem;
+}
+.signup-orgs {
+  background-color: rgb(203, 56, 55);
+  border: 2px solid rgb(203, 56, 55);
+  margin-top: 120px;
+}
+.signup-orgs:hover {
+  background-color: rgb(154, 43, 42);
+  border-color:rgb(154, 43, 42);
+}
+.collaboration-link {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  margin: 0;
+}
+.first-signup {
+  padding-top: 1.5rem;
+  height: 400px;
+}
+.first-signup p {
+  margin: 0;
+}
+.first-signup li {
+  line-height: 1.7;
+}
+.second-install {
+  background-image: url("../images/forklift.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 370px;
+  color: white;
+}
+
+.install-npm {
+  background-color: rgb(49, 68, 88);
+  border: 2px solid rgb(49, 68, 88);
+}
+.install-npm:hover {
+  background-color: rgb(41, 52, 64);
+  border-color: 2px solid rgb(49, 68, 88);
+}
+
+.second p{
+  width: 300px;
+  padding: 1rem 0;
+}
+.third{
+  text-align: center;
+  line-height: 2;
+}
+.third h1{
+  color: rgb(83, 88, 98);
+}
+.third p{
+  color: rgb(135, 145, 156);
+}
+.cards-container {
+  margin: 2rem 10rem 4rem 10rem;
+  display:flex;
+  justify-content: center;
+}
+.card {
+  margin: 0 2rem;
+  width: 220px;
+  text-align: center;
+}
+.card h3 {
+  margin: 1rem 0;
+}
+.card-link{
+  text-decoration: none;
+  color: rgb(208, 74, 73);
+}
+.card-link:hover {
+  color: rgb(119, 35, 81);
+}
