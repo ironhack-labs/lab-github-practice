@@ -114,9 +114,10 @@ input[type="text"] {
 .section-container-1 {
   width: 620px;
   margin: 0 auto;
-  padding-top: 2rem;
   background-image: url("images/city-scape.svg");
+  padding-top: 50px;
 }
+
 .first {
   display: flex;
   justify-content: center;
@@ -147,7 +148,7 @@ input[type="text"] {
 }
 .first-signup {
   padding-top: 1.5rem;
-  height: 400px;
+  height: 445px;
 }
 .first-signup p {
   margin: 0;
@@ -155,12 +156,21 @@ input[type="text"] {
 .first-signup li {
   line-height: 1.7;
 }
+
+.section-container-2{
+  width: 620px;
+  margin: 0px auto;
+  padding-top: 50px;
+  padding-left: 200px;
+}
+
 .second-install {
   background-image: url("../images/forklift.svg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 370px;
   color: white;
+  margin: 0 auto;
 }
 
 .install-npm {
@@ -175,6 +185,7 @@ input[type="text"] {
 .second p{
   width: 300px;
   padding: 1rem 0;
+
 }
 .third{
   text-align: center;
