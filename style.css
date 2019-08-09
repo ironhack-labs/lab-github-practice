@@ -1,0 +1,286 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body {
+    font-family: sans-serif;
+    font-size: 10px;
+    color:white;
+}
+
+h1 {
+    font-size: 5em;
+    font-weight: 100;
+}
+
+h2 {
+    font-size: 3.2em;
+    font-weight: 100;
+}
+
+.nav-bar {
+    height: 40px;
+    background-color: red;
+    color: rgba(255, 255, 255, 0.8);
+    padding-top: 15px;
+    position: relative;
+    font-size: 1.2em;
+    font-weight: 400;
+
+}    
+  }
+  
+.top-left {
+    float:left;
+    padding: 0 10px;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%); 
+}
+
+.heart {
+    color: white;
+    text-decoration: none;
+    padding: 0 20px;
+}
+
+.top-links {
+    display: inline-block;
+    float: right;
+    padding: 0;
+    position: absolute;
+    margin: 0 20px 0 0;
+    top: 50%;
+    transform: translate(0, -50%); 
+    left: 65%;
+}
+
+.top-links li {
+    display: inline-block;
+    margin: 0 10px;
+    text-align: center;
+}
+
+.header {
+    background-image: url(images/city-scape.svg);
+    background-color: rgb(32, 101, 136)
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0 0 0;
+    position: relative;
+    height: 400px;
+  }
+  
+
+.top-head {
+    position: absolute;
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: left;
+    top: 2%;
+}
+
+.logo {
+    height: 265%;
+    width: auto;
+    position: absolute;
+    padding: 0 10px;
+}  
+
+.search-icon {
+    height: 60px;
+    width: auto;
+    position: absolute;
+    left: 1110px;
+    top: -12px;
+}
+
+.bear {
+    position: absolute;
+    left: 1350px;
+    height: 25px;
+    width: auto;
+}
+.search-container input{
+    width: 1000px;
+    height: 25px;
+    position: absolute;
+    left:120px;    
+    border-style: solid;
+    border-color: rgb(114, 115, 116);
+    background-color: rgb(31, 82, 111);
+}
+
+.top-head p {
+    position: absolute;
+    left:1200px;
+    width: 300px;
+    font-size: 1.5em;
+}
+
+
+.bottom-head {
+    width: 575px;
+    margin: 0 auto;
+    color: white;
+    bottom: 200px;
+    position: absolute;
+    left: 10%;
+    bottom: 27%;
+    font-weight: 100;
+}
+
+.bottom-head h1{
+    padding: 0 0 10px 0;
+    margin: 0;
+}
+
+.bottom-head p {
+    font-size: 1.9em;
+    padding: 10px 0 20px 0 ;
+    margin: 0 0 0 0;
+}
+
+.bottom-head button {
+    background-color: rgb(240, 146, 51);
+    border-radius: 12px;
+    color: white;
+    border: none;
+    height: 24px;
+    width: 120px;
+    padding: 0 0 3px 0;
+    
+} 
+.collab {
+    background-color: rgb(39, 53, 71);
+    height: 500px;
+
+  }
+
+.collab img {
+    height: 300px;
+    width: auto;
+    position: relative;
+    margin: 0 auto;
+    left:20%;
+    top: 10%;
+}
+
+.help  {
+    float: right;
+    margin: 0 auto;
+    padding: 10px;
+    width: 550px;
+    top:15%;
+}
+
+.help h2 {
+    width: 375px;
+    margin: 25px 0 ;
+    padding: 10px 0 0 0;
+}
+
+.help ul {
+    font-size: 1.8em;
+    line-height: 1.8em;
+    font-weight: 300;
+    left:
+}
+
+.help button {
+    background-color: red;
+    border-radius: 12px;
+    color: white;
+    border: none;
+    height: 24px;
+    width: 120px;
+}
+
+.help p {
+    color:white;
+}
+.npm {
+    background-image: url(images/forklift.svg);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0 0 0;
+    position: relative;
+    height: 500px;
+}
+
+.npm-text {
+    position: absolute;
+    left: 10%;
+    top: 15%;
+    width: 330px;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    font-weight: 200;
+}
+
+.npm-text h2{
+    padding:20px 0;
+}
+
+.npm-text button{
+    padding: 0;
+    margin: 20px 0;
+    background: rgb(49, 68, 88);
+    border-radius: 30px;
+    color: white;
+    border: none;
+    height: 30px;
+    width: 120px;
+    text-align: center;
+}
+
+.blocks {
+    height: 500px;
+  }
+
+.top-what {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.top-what h2{
+    font-size: 4em;
+    color:rgb(83, 88, 98);
+    padding: 30px 0;
+}
+
+.top-what p{
+    font-size: 2em;
+    color: rgb(135, 145, 156);
+    
+}
+
+.three-what {
+    color: rgb(135, 145, 156);  
+    display: flex;
+    justify-content: space-evenly;  
+    padding:  20px 0;
+}
+
+.service-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 180px;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+span {
+    padding: 10px 0;
+}
+
+
+  
