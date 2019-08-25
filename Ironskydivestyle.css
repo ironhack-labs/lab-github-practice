@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+body {
+    font-family: "Roboto";
+    font-size: 10px;
+    line-height: 3.5em;
+    font-weight: 300;
+}
+
+.header {
+    background: url('https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironhack-skydive-background.jpg') 0 0 no-repeat;
+    background-size: cover;
+    height: 650px;
+    padding-top: 50px;
+    /* position: relative; */
+}
+
+.col {
+    float: left;
+}
+
+.col-3 {
+    width: 30%;
+}
+
+.col-middle {
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.nav-bar {
+    background: rgb(25, 33, 41);
+    color: white;
+    padding-bottom: 14px;
+    padding-top: 14px;
+    height: 40px;
+}
+
+.nav-bar-ul {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.nav-bar-item {
+    color: white;
+    text-decoration: none;
+    font-size: 2em;
+}
+
+.nav-bar-li {
+    list-style-type: none;
+    text-align: center;
+    float: left;
+    width: 33%;
+}
+
+.quote {
+    /* bottom: 10vhn; */
+    font-size: 2.5em;
+    position: absolute;
+    left: 10%;
+    
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 75px 0;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: "Roboto Condensed";
+}
+
+h1 {
+    font-size: 9em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 5em;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    line-height: 4em;
+    text-shadow: #020819 8px -20px 9px;
+}
+
+h3 {
+    font-size: 4.2em;
+    text-align: center;
+}
+
+h4 {
+    font-size: 1.5em;
+    letter-spacing: 0.4px;
+    margin-bottom: 15px;
+}
+
+h5 {
+    font-size: 1.2em;
+}
+
+.dark-background {
+    background-color: rgb(25, 33, 41);
+    color: white;
+}
+
+#general-information .text {
+    font-size: 2em;
+    font-weight: 100;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.link-btn {
+    background-color: rgb(67, 163, 230);
+    color: white;
+    font-family: "Roboto Condensed";
+    font-size: 2em;
+    letter-spacing: 0.5px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    width: 150px;
+    margin: 40px auto 0 auto;
+    padding: 14px 20px 14px 20px;
+    border: 2px black solid 0.2
+}
+
+.service-box {
+    font-size: 1.7em;
+    text-align: center;
+    border: 2px solid #eee;
+    border-radius: 20px;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 10px 0 #eee;
+    margin: 50px 5% 0 5%;
+    padding: 20px;
+    width: 40%;
+}
+
+.service-box .img {
+    width: 125px;
+}
+
+#team .section-text {
+    font-size: 1.9em;
+    text-align: center;
+    width: 60%;
+    margin: 10px auto;
+}
+
+#team hr {
+    margin: 20px auto 30px;
+    width: 40%;
+  }
+
+#team .member-name {
+    font-size: 1.5em;
+    font-weight: 700;
+    display: block;
+    text-align: center;
+}
+
+.footer {
+    font-size: 1.9em;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-bottom: 25px;
+}
+
+.footer .address {
+    font-style: normal;
+    font-size: 0.8em;
+    margin-bottom: 30px;
+}
+
+.footer .link {
+    color: rgb(67, 163, 230);
+    text-decoration: none;
+}
+
+.footer .follow-us-item {
+    list-style-type: none;
+    text-align: center;
+}
+
+.footer .map-frame {
+    height: 475px;
+    float: left;
+    width: 70%;
+}
+
+.schedule-table{
+    margin: 0 auto 40px auto;
+    font-size: 1.5em;
+}
+
+.schedule-table th, .schedule-table td {
+    border-bottom: 1px solid black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;    
+  }
+
+.slot-form-container {
+    width: 40%;
+    margin: 18px auto 0 auto;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.slot-form-container button {
+    border: 1px solid black;
+    color: black;
+    background-color: white;
+    padding: 9px;
+    margin-top: 15px;
+}
+
+.slot-form-container input, 
+.slot-form-container select {
+    height: 20px;
+    outline: none;
+    padding: 3p;
+    width: 100%;
+}
+
+.slot-form-container label {
+    display: block;
+    margin-bottom: 5px;
+    line-height: 15px;
+}
