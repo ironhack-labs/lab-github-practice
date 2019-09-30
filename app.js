@@ -36,9 +36,6 @@ const rovers = [
     ['free', 'free', 'free', 'free', 'free', 'free', 'free', 'free', 'free', 'free'],
     ['free', 'free', 'free', 'free', 'free', 'crater', 'free', 'free', 'free', 'Russia'],
   ];
-  // frfflfrbrbb
-  // fflflbbrrff
-  // ffffrfffrff
   // ======================
   const turnLeft = rover => {
       switch (rover.direction) {
