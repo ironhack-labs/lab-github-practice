@@ -1,0 +1,26 @@
+let marsRover ={
+  direction: 'N',
+}
+
+const theDirections =["N","W", "S", "E"];
+
+function turnLeft(rover){
+  rover.direction = theDirections[(theDirections.indexOf(rover.direction)+1) % 4];
+  //let newDirection = rover.direction;
+  //console.log("The new direction is " + newDirection);
+  
+}
+
+function turnRight(rover){
+  rover.direction = theDirections[(theDirections.indexOf(rover.direction)+3) % 4];
+  let newDirection = rover.direction;
+  console.log("The new direction is " + newDirection);
+}
+
+console.log("hello");
+
+turnRight(marsRover);
+
+function moveForward(rover){
+  console.log("moveForward was called")
+}
