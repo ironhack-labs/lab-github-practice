@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
+    font-family: 'Poppins';
+}
+
+header > div {
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+}
+
+nav {
+    width: 600px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+#div-hd {
+    display: flex;
+    justify-content: space-around;
+    align-content: space-between;
+    margin-top: 15px;
+    
+}
+
+input[type-text]:focus {
+    border-color: ;
+}
+
+.div-hd2 {
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.btn {
+    background-color: hsl(348, 58%, 54%);
+}
+
+
+.blackHeart {
+    width: 20px;
+    margin-right: 1rem;
+}
+
+#section1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: rgba(232, 217, 217, .3);
+    height: 500px;
+    border: 2px, solide, #1439704d
+}
+.header1 {
+    border-width: 2px;
+    border-color: brown;
+    border-style: solid;
+    margin-left: 22rem;
+    margin-right: 22rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 1rem;
+}
+
+.aref {
+    border-style: solid;
+    border-color: red;
+    height: 80px;
+    padding-top: 4.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-right: 20em;
+    margin-left: 20em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.aref a {
+    border-style: solide;
+}
+
+ .article {
+    border-width: 2px;
+    border-color: yellow;
+    border-style: solide;
+}
+
+#section2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-style: solid;
+    border-color: hsla(234, 88%, 33%, 0.302);
+    margin-bottom: 5px ;
+    margin-top: 5px;
+}
+.header2 {
+    border-width: 2px;
+    border-color: peru;
+    border-style: solide ;
+}
+
+
+.glass {
+    width: 18px;
+    margin-right: 1rem;
+}
+
+.npmlog {
+    width: 70px;
+}
+
+.zero-conf {
+    width: 70px;
+}
+
+.team-mana {
+    width: 70px;
+}
+
+.fam-feat {
+    width: 70px;
+}
+
+.npm-aud {
+    width: 70px;
+}
+
+#section3 {
+    border-style: solid;
+    margin-top: 5px;
+    border-color: hsla(234, 88%, 33%, 0.302);
+    height: 400px;
+}
+
+.bigdiv {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.creatL {
+    display: flex;
+    justify-content: center;
+    border-style: solid;
+    background-color: black;
+    margin-left: 400px;
+    margin-right: 400px;
+    height: 30px;
+}
+
+.creatL a {
+    color: white;
+}
