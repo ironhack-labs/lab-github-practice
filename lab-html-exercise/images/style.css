@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+#body {
+  font-family: 'Poppins';
+}
+
+#header{
+    display: flex;
+    flex-direction: row;
+}
+.header > div {
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+}
+
+.first-line {    
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+.nav {
+    width: 600px;
+    
+}
+  
+.nav-ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+  
+.nav-a {
+    text-decoration: none;
+    color:black;
+    display: flex;
+    justify-content: space-evenly;
+}
+  
+.blackHeart {
+    width: 20px;
+    margin-right: 1rem;
+}
+
+.npm-logo{
+    height: 40px;
+    width: 40px;
+}
+
+.m-glass{
+    height: 15px;
+    width: 15px;
+}
+.form{
+    color: rgba(0,0,0,.05);
+}
+.form button{
+    background-color: #fb3e44;
+    color: white;
+}
+
+.search-box{
+    width:500px;
+}
+
+.search-btn{
+    background-color: red;
+    color: white;
+    text-align: center;
+    width: 50px;
+    border: 1px black solid;
+}
+
+
+.buttons{
+    display:flex;
+    justify-content: flex-end;
+}
+  
+.join-btn{
+    text-align:center;
+    color: black;
+    width:100px;
+    border:black;
+    background:white;
+    text-decoration:none;
+}
+  
+.login-btn{
+    text-align:center;
+    color: black;
+    border:black;
+    background: white;
+    text-decoration:none;
+}
+
+#section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 600px;
+    background-color: rgba(232,217,217,.3);
+    margin: 30 20;
+    padding: 75px 0;
+
+}
+
+.article{
+    text-align:center;
+    width: 350px;
+}
+
+.h1{
+    font-size:60px;
+    margin-top:40px;
+    text-align: start;
+}
+.see-plans{
+    background-color: #FB3B49;
+    box-shadow: 8px 8px 0 rgba(251,59,73,.2);
+    color: white;
+    text-decoration: none;
+}
+
+.plans{
+    display: flex;
+    flex-direction: row;
+}
+
+.hexagon{
+    width: 350px;
+}
+
+.article-two{
+    text-align:center;
+    width: 350px;
+}
+
+#section-three{
+    display: flex;
+    flex-direction: row;
+    align-items:stretch;
+    justify-content: center;
+}
+
+.h3{
+    color: #ED1C24;
+}
+
+.org-box{
+    box-shadow:  8px 0 rgba(128,83,35,.2);
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    text-align: center;
+    width: 500px;
+}
