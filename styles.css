@@ -1,0 +1,57 @@
+.green-text {
+    font-size: 2rem;
+    color: #1bfdb2;
+}
+
+.red-text {
+    font-size: 2rem;
+    color: red;
+}
+
+#body-contain {
+    padding: 5px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#nav-bar {
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-style: solid;
+}
+
+.nav-button {
+    display: inline-block;
+    height: 20px;
+    padding: 5px 10px;
+    background-color: #7fffd4ba;
+}
+
+.nav-text {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: wait;
+}
+
+.centered {
+    text-align: center;
+}
+
+#interest-container {
+    display: inline-flex;
+    width: 100%;
+}
+
+#like-box {
+    background-color: #a8ffe238;
+    margin-right: 10px;
+}
+
+#dislike-box{
+    background-color: #ff000038;
+}
+
+#like-box, #dislike-box {
+    width: 100%;
+}

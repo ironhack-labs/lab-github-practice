@@ -3,34 +3,47 @@
 <head>
   <meta charset="UTF-8">
   <title>Portfolio Page</title>
+  <link rel = "stylesheet"
+   type = "text/css"
+   href = "styles.css" />
 </head>
-<body>
-  <nav>
-    <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Contact</a></li>
-    </ul>
-  </nav>
+<body id="body-contain">
+  <div id="nav-bar">
+    <div class="nav-button">
+      <a class="nav-text" href="#">Home</a>
+    </div>
+    <div class="nav-button">
+      <a class="nav-text" href="#">Gallery</a>
+    </div>
+    <div class="nav-button">
+      <a class="nav-text" href="#">About</a>
+    </div>
+    <div class="nav-button">
+      <a class="nav-text" href="#">Contact Us</a>
+    </div>
+  </div>
 
-  <h1>Welcome To Ironhacker's Page</h1>
+  <h1 class="centered" style="font-size: 2.5rem;">Welcome To Ironhacker's Page</h1>
 
-  <section>
-    <h2>Things I Like</h2>
-    <ul>
-      <li>Fill</li>
-      <li>This</li>
-      <li>In</li>
-    </ul>
-  </section>
-
-  <section>
-    <h2>Things I Don't Like</h2>
-    <ul>
-      <li>Fill</li>
-      <li>This</li>
-      <li>In</li>
-    </ul>
-  </section>
+  <div id="interest-container">
+    <div id="like-box">
+      <h2  class="green-text centered" >Things I Like</h2>
+      <ul>
+        <li>Surfing</li>
+        <li>Gaming</li>
+        <li>Other cliché interests like music, friends, family, pets, etc.</li>
+      </ul>
+    </div>
+  
+    <div id="dislike-box">
+      <h2 class="red-text centered">Things I Don't Like</h2>
+      <ul>
+        <li>Ill Intent</li>
+        <li>Lack of Empathy</li>
+        <li>Tomato</li>
+      </ul>
+    </div>
+  </div>
+  
 </body>
 </html>
