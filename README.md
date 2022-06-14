@@ -6,7 +6,7 @@ Simple game developed in Vanilla Javascript, HTML and CSS, with most of the basi
 
 This project is part of the Ironhack Web Development Bootcamp. For our first independent project, we were give the task of creating our own game using the knowledge acummulated during the first two weeks of the course.
 
-The main challenge with this assignment was creating and changing HTML structure from the main game.js file, and modifying CSS classes depending of the many different conditions from the game.
+The main challenge with this assignment was creating and changing HTML structure from the main game.js file and modifying CSS classes depending on the different conditions of the game.
 
 
 ![PRINTSCREEN](https://user-images.githubusercontent.com/104802360/173673903-d801dec6-e031-497a-bd86-f6c4cdde16b0.jpg)
